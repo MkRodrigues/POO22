@@ -7,7 +7,6 @@ class MediaA implements IMediaAritmetica {
     private $nota1;
     private $nota2;
     
-
     // Métodos
     public function calcularMediaAritmetica(){
         return ($this->nota1 * $this->nota2)/2;
@@ -17,7 +16,5 @@ class MediaA implements IMediaAritmetica {
         $this->nota1 = $nota1;
         $this->nota2 = $nota2;
         $this->aluno = $aluno;
-    }
-
-    
+    } 
 }

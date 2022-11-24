@@ -1,0 +1,25 @@
+<!-- Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é F ← (9 * C + 160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADO 1 - Exercício A</title>
+</head>
+
+<body>
+    <center>
+        <form action="exercicioA.php" method="post" enctype="multipart/form-data">
+            <label for="celsius">Grau em Celsius</label> <br>
+            <input type="text" name="celsius" placeholder="Insira a tempetura em Celsius"><br><br>
+            <label for="fahrenheit">Fahrenheit</label><br>
+            <input type="text" value="<?php echo $fahrenheit;?>" readonly><br><br>
+            <input type="submit" value="Converter">
+        </form>
+    </center>
+</body>
+
+</html>
